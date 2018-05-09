@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:orientation="vertical" tools:context="com.simran.bluetooth.MainActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/turnOn" android:text="Turn On"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/turnOff" android:text="Turn Off"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/getFile" android:text="Get File"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fileName" android:text="No File Selected"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/buttonSend" android:text="Send"/>
+
+</LinearLayout>
